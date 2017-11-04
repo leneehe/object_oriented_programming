@@ -18,9 +18,6 @@ class BankAccount
     @balance *= @interest_rate + 1
     return @balance.round(2)
   end
-
-
-
 end
 
 account01 = BankAccount.new
