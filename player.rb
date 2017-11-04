@@ -29,7 +29,7 @@ class Player
   end
 
   def restart
-    puts "You die. Restarted game!"
+    puts "GG, You run out of lives. Restart game!"
     initialize
   end
 
