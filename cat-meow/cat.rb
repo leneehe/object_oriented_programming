@@ -8,6 +8,9 @@ class Cat
 
   def eat_at
     if @meal_time < 12
+        if @meal_time == 0
+          @meal_time += 12
+        end
         return "#{@meal_time} AM"
     elsif @meal_time == 12
         return "#{@meal_time} PM"
