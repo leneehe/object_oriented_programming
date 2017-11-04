@@ -68,7 +68,7 @@ puts "Total earnings: $#{tommy.earnings}"
 puts tommy.report
 
 puts "Quota: #{jimmy.quota}"
-puts "Earning this time: $#{jimmy.deliver(33, 126)}"
+puts "Earning this time: $#{jimmy.deliver(126, 33)}"
 puts "Total earnings: $#{jimmy.earnings}"
 puts jimmy.report
 
