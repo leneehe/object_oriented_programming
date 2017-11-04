@@ -26,14 +26,11 @@ class PaperBoy
 
     if delivered >= quota
       this_earning = quota * 0.25 + (delivered - quota) * 0.50
-      @earnings += this_earning
-      @experience += delivered
     else
       this_earning = delivered * 0.25 - 2
-      @earnings += this_earning
-      @experience += delivered
     end
-
+    @earnings += this_earning
+    @experience += delivered
     return this_earning
 
   end
